@@ -1,6 +1,7 @@
 {
     "ecmaFeatures": {
-        "modules": true
+        "modules": true,
+        "experimentalObjectRestSpread": true
     },
     "env": {
         "browser": true,
@@ -8,9 +9,6 @@
         "node": true,
         "es6": true,
         "amd": true
-    },
-    "parserOptions": {
-        "sourceType": "module"
     },
     "rules": {
         "one-var-declaration-per-line": 2,
@@ -116,7 +114,7 @@
         "no-restricted-modules": 0,
         "no-sync": 0,
 
-        "indent": [2, 4, {"SwitchCase": 1}],
+        "indent": [2, 4, { "SwitchCase": 1 }],
         "brace-style": [2, "1tbs", { "allowSingleLine": true }],
         "camelcase": 1,
         "comma-dangle": [2, "never"],
@@ -147,11 +145,11 @@
         "quote-props": [2, "consistent-as-needed"],
         "quotes": [2, "single", "avoid-escape"],
         "semi": [2, "always"],
-        "semi-spacing": [2, {"before": false, "after": true}],
+        "semi-spacing": [2, { "before": false, "after": true }],
         "sort-vars": 0,
         "keyword-spacing": 2,
         "space-before-blocks": [2, "always"],
-        "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
+        "space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],
         "space-in-brackets": 0,
         "space-in-parens": 0,
         "space-infix-ops": 2,
