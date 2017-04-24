@@ -1,36 +1,38 @@
 {
-    "name": "eslint-config-bfe",
-    "version": "1.0.1",
-    "description": "BFE JavaScript Code Style",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/MTDP-BFE/eslint-config-bfe.git"
-    },
-    "author": {
-        "name": "yangzj1992",
-        "email": "yangzj1992@qq.com",
-        "url": "https://github.com/yangzj1992"
-    },
-    "license": "MIT",
-    "maintainers": [{
-        "name": "yangzj1992",
-        "email": "yangzj1992@qq.com"
-    }],
-    "bugs": {
-        "url": "https://github.com/MTDP-BFE/eslint-config-bfe/issues"
-    },
-    "homepage": "https://github.com/MTDP-BFE/eslint-config-bfe#readme",
-    "devDependencies": {
-        "cz-conventional-changelog": "^2.0.0",
-        "eslint": "^2.11.1"
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
+  "name": "eslint-config-bfe",
+  "version": "1.0.2",
+  "description": "BFE JavaScript Code Style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTDP-BFE/eslint-config-bfe.git"
+  },
+  "author": {
+    "name": "yangzj1992",
+    "email": "yangzj1992@qq.com",
+    "url": "https://github.com/yangzj1992"
+  },
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "yangzj1992",
+      "email": "yangzj1992@qq.com"
     }
+  ],
+  "bugs": {
+    "url": "https://github.com/MTDP-BFE/eslint-config-bfe/issues"
+  },
+  "homepage": "https://github.com/MTDP-BFE/eslint-config-bfe#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^2.11.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
