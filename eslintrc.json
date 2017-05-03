@@ -3,6 +3,9 @@
         "modules": true,
         "experimentalObjectRestSpread": true
     },
+    "parserOptions": {
+        "sourceType": "module"
+    },
     "env": {
         "browser": true,
         "mocha": true,
