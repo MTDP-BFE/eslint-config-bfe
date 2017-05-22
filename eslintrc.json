@@ -88,7 +88,7 @@
         "no-script-url": 2,
         "no-self-compare": 2,
         "no-sequences": 2,
-        "no-unused-expressions": 2,
+        "no-unused-expressions": 1,
         "no-void": 1,
         "no-warning-comments": [1, { "terms": ["fixme"], "location": "start" }],
         "no-with": 2,
