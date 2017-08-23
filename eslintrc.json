@@ -1,10 +1,10 @@
 {
-    "ecmaFeatures": {
-        "modules": true,
-        "experimentalObjectRestSpread": true
-    },
     "parserOptions": {
-        "sourceType": "module"
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        }
     },
     "env": {
         "browser": true,
