@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bfe",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "BFE JavaScript Code Style",
   "main": "index.js",
   "scripts": {
