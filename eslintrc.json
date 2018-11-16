@@ -1,14 +1,12 @@
 {
     "parserOptions": {
         "sourceType": "module",
-        "ecmaFeatures": {
-            "modules": true,
-            "experimentalObjectRestSpread": true
-        }
+        "ecmaFeatures": 2018
     },
     "env": {
         "browser": true,
         "mocha": true,
+        "jest": true,
         "node": true,
         "es6": true,
         "amd": true
